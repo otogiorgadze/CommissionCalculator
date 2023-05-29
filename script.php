@@ -92,7 +92,7 @@ class CommissionCalculator
         } else {
             $commission = $this->calculatePercentage($amountInEuros, $this->commisionRateForPrivateWithdraw);
         }
-        echo $commission.' - '.$weeklyWithdrawalCount.' - '.$userId.' - '.$amountInEuros.' - '.$totalWithdrawalAmount."<br>";
+
         $this->privateWithdrawals[$date][] = [
             'userId' => $userId,
             'amount' => $amountInEuros,
