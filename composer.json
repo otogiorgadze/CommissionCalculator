@@ -1,0 +1,23 @@
+{
+  "name": "acme/commission-calculator",
+  "description": "Commission Calculator",
+  "authors": [
+    {
+      "name": "Oto Giorgadze"
+    }
+  ],
+"require": {
+  "guzzlehttp/guzzle": "^7.7",
+    "nesbot/carbon": "^2.66"
+    },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "8.2.6"
+    }
+  }
+}
